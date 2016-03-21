@@ -1,5 +1,5 @@
 class GraphsController < ApplicationController
-  before_action :set_graph, only: [:show, :edit, :update, :destroy]
+  before_action :set_graph, only: [:show, :edit, :update, :destroy, :vote]
 
   # GET /graphs
   # GET /graphs.json
