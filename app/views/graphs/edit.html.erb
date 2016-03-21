@@ -1,6 +1,5 @@
-<h1>Editing graph</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @graph %> |
-<%= link_to 'Back', graphs_path %>
+<%- model_class = Graph -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => [:'helpers.titles.edit', 'Edit %{model}'], :model => Graph %></h1>
+</div>
+<%= render :partial => 'form' %>

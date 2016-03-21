@@ -1,5 +1,6 @@
-<h1>New graph</h1>
+<%- model_class = Graph -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => [:'helpers.titles.new', 'New %{model}'], :model => Graph %></h1>
+</div>
+<%= render :partial => 'form' %>
 
-<%= render 'form' %>
-
-<%= link_to 'Back', graphs_path %>
