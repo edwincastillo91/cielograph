@@ -1,4 +1,5 @@
 ActiveAdmin.register Constellable do
+  permit_params :constellable_type, :constellable_id
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
