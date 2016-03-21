@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  constellable_type: MyString
+  constellable_id: 1
+  constellable_id: 
+
+two:
+  constellable_type: MyString
+  constellable_id: 1
+  constellable_id: 
